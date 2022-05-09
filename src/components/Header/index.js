@@ -3,8 +3,10 @@ import Navigation from "../Navigation";
 
 function Header(props) {
   return (
-    <header className="">
-      <h2>Shannon Stover</h2>
+    <header className="d-flex flex-row">
+      <a href="/" className="main-title">
+        <h1>Shannon Stover</h1>
+      </a>
       <Navigation></Navigation>
     </header>
   );
