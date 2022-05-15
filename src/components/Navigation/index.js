@@ -15,7 +15,8 @@ function Navigation(props) {
           >
             <span
               onClick={() => {
-                setCurrentCategory(category);
+                setCurrentCategory(category.name);
+                console.log(category);
               }}
             >
               {category.name}
