@@ -8,14 +8,12 @@ function Navigation(props) {
       <ul className="d-flex flex-row">
         {categories.map((category) => (
           <li
-            className={`mx-1 ${
-              currentCategory.name === category.name && "navActive"
-            }`}
+            className={`mx-1 ${currentCategory === category && "navActive"}`}
             key={category.name}
           >
             <span
               onClick={() => {
-                setCurrentCategory(category.name);
+                setCurrentCategory(category);
                 console.log(category);
               }}
             >

@@ -23,7 +23,9 @@ function App() {
     },
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  // sets the initial state to display the About Me section
+  const [currentCategory, setCurrentCategory] = useState(0);
+
   return (
     <div>
       <header className="d-flex flex-row">
@@ -35,10 +37,11 @@ function App() {
         ></Navigation>
       </header>
       <main>
-        {currentCategory === "About Me" && <About />}
-        {currentCategory === "Portfolio" && <Project />}
-        {currentCategory === "Contact" && <Contact />}
-        {currentCategory === "Resume" && <Resume />}
+        {currentCategory === 0 && <About />}
+        {currentCategory.name === "About Me" && <About />}
+        {currentCategory.name === "Portfolio" && <Project />}
+        {currentCategory.name === "Contact" && <Contact />}
+        {currentCategory.name === "Resume" && <Resume />}
       </main>
       <Footer></Footer>
     </div>

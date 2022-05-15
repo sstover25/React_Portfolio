@@ -1,3 +1,12 @@
+:root {
+  --primary: #F2F7F2;
+  --secondary: #C57B57;
+  --tertiary: #1F271B;
+  --quaternary: #498467;
+  --quinary: #093A3E;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,12 +21,25 @@ code {
     monospace;
 }
 
+header {
+  background-color: var(--quinary);
+}
+
+main, footer {
+  background-color: var(--tertiary);
+}
+
 .main-title, .main-title:hover  {
-  color: inherit;
+  color: var(--primary);
   text-decoration: none;
 }
 
 li {
   list-style: none;
   cursor: pointer;
+  color: var(--secondary);
+}
+
+.navActive {
+  color: var(--primary);
 }
