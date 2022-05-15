@@ -19,4 +19,5 @@ code {
 
 li {
   list-style: none;
+  cursor: pointer;
 }
