@@ -40,13 +40,13 @@ function Contact() {
   };
 
   return (
-    <section className="section">
-      <h1
+    <section className="contact-section">
+      <h2
         data-testid="h1tag"
         className="contact-text d-flex about-me-title px-5 pt-5 justify-content-center"
       >
         Contact me
-      </h1>
+      </h2>
       <form
         id="contact-form"
         onSubmit={handleSubmit}

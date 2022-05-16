@@ -2,10 +2,10 @@ import React from "react";
 
 function Resume() {
   return (
-    <div className="section">
-      <h1 className="d-flex about-me-title px-5 pt-5 justify-content-center">
+    <div className="resume-section">
+      <h2 className="d-flex about-me-title px-5 pt-5 justify-content-center">
         Resume
-      </h1>
+      </h2>
       <div className="d-flex flex-column p-3 align-items-center">
         <p className="resume-text">
           Download my{" "}

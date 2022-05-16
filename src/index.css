@@ -70,12 +70,13 @@ li {
 }
 
 /* About Me styles */
-.section {
-  height: 750px;
+.about-section {
+  height: 1200px;
 }
 
 .about-me-title {
   color: var(--primary);
+  font-size: 40px;
 }
 
 .bio-text {
@@ -85,10 +86,39 @@ li {
 }
 
 /* Portfolio styles */
+.portfolio-section {
+  height: 3000px;
+  overflow:hidden;
+}
 
+.profile-images {
+  max-width: 600px;
+  max-height: 600px;
+}
 
+.profile-link, .profile-link:hover {
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.profile-link {
+  color: var(--primary);
+}
+
+.profile-link:hover {
+  color: var(--secondary);
+}
+
+.profile-link-title, .profile-link-title:hover {
+  font-size: 30px;
+}
 
 /* Contact styles */
+.contact-section {
+  height: 1000px;
+}
+
 .contact-text {
   color: var(--primary);
 }
@@ -109,6 +139,10 @@ textarea {
 }
 
 /* Resume styles */
+.resume-section {
+  height: 1000px;
+}
+
 .resume-text {
   font-size: larger;
   font-style: italic;
