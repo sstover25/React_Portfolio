@@ -27,7 +27,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(0);
 
   return (
-    <div>
+    <div className="main-body">
       <header className="d-flex flex-row">
         <Header></Header>
         <Navigation

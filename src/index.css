@@ -6,7 +6,6 @@
   --quinary: #093A3E;
 }
 
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,6 +13,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.main-body {
+  background-image: url("../src/assets/Forest-background.jpg");
 }
 
 code {
@@ -43,3 +46,26 @@ li {
 .navActive {
   color: var(--primary);
 }
+
+/* About Me styles */
+.about-me-title {
+  color: var(--primary);
+}
+
+.bio-text {
+  color: var(--primary);
+  font-size: larger;
+}
+
+/* Portfolio styles */
+
+
+
+/* Contact styles */
+
+
+
+/* Resume styles */
+
+
+
