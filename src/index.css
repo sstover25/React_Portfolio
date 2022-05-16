@@ -109,6 +109,30 @@ textarea {
 }
 
 /* Resume styles */
+.resume-text {
+  font-size: larger;
+  font-style: italic;
+  color: var(--primary);
+}
 
+.resume-link, .resume-link:hover {
+  text-decoration: none;
+}
 
+.resume-link {
+  color: var(--quaternary);
+}
 
+.resume-link:hover {
+  color: var(--secondary);
+}
+
+.proficiencies {
+  color: var(--secondary);
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.proficiencies-list li {
+  list-style: circle;
+}
