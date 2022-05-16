@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="main-body">
-      <header className="d-flex flex-row">
+      <header className="d-flex flex-column flex-md-row justify-content-between">
         <Header></Header>
         <Navigation
           categories={categories}

@@ -5,10 +5,10 @@ function Navigation(props) {
 
   return (
     <nav>
-      <ul className="d-flex flex-row">
+      <ul className="d-flex flex-column flex-sm-row align-items-center justify-content-between p-3 mw-100">
         {categories.map((category) => (
           <li
-            className={`mx-1 ${currentCategory === category && "navActive"}`}
+            className={`m-1 ${currentCategory === category && "navActive"}`}
             key={category.name}
           >
             <span

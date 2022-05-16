@@ -37,10 +37,17 @@ main, footer {
   text-decoration: none;
 }
 
+.main-title h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
 li {
   list-style: none;
   cursor: pointer;
   color: var(--secondary);
+  font-size: x-large;
+  white-space: nowrap;
 }
 
 .navActive {
@@ -55,6 +62,7 @@ li {
 .bio-text {
   color: var(--primary);
   font-size: larger;
+  font-style: italic;
 }
 
 /* Portfolio styles */
