@@ -15,10 +15,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.main-body {
-  background-image: url("../src/assets/Forest-background.jpg");
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -83,8 +79,24 @@ li {
 
 
 /* Contact styles */
+.contact-text {
+  color: var(--primary);
+}
 
+input {
+  min-width: 200px;
+}
 
+textarea {
+  min-width: 200px;
+  max-height: 150px;
+}
+
+.error-text {
+  color: var(--secondary);
+  font-size: larger;
+  font-style: italic;
+}
 
 /* Resume styles */
 
