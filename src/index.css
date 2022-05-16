@@ -32,6 +32,19 @@ main, footer {
   background-color: var(--tertiary);
 }
 
+.footer-link, .footer-link:hover {
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.footer-link {
+  color: var(--primary);
+}
+
+.footer-link:hover {
+  color: var(--quaternary);
+}
+
 .main-title, .main-title:hover  {
   color: var(--primary);
   text-decoration: none;
