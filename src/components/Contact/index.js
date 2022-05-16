@@ -40,7 +40,7 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section className="section">
       <h1
         data-testid="h1tag"
         className="contact-text d-flex about-me-title px-5 pt-5 justify-content-center"

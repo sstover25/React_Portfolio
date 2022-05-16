@@ -3,11 +3,11 @@ import SelfImage from "../../assets/self-image.jpeg";
 
 function About() {
   return (
-    <div>
+    <div className="section">
       <h1 className="d-flex about-me-title px-5 pt-5 justify-content-center">
         About Me
       </h1>
-      <div className="d-flex flex-column flex-md-row p-3 align-items-center justify-content-center w-100 h-100">
+      <div className="d-flex flex-column flex-md-row p-3 align-items-center justify-content-center">
         <img
           className="media mw-50 mh-50"
           src={SelfImage}

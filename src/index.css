@@ -26,6 +26,12 @@ header {
 
 main, footer {
   background-color: var(--tertiary);
+  height: auto;
+  width: auto;
+}
+
+.main-body {
+  background-color: var(--tertiary); 
 }
 
 .footer-link, .footer-link:hover {
@@ -64,6 +70,10 @@ li {
 }
 
 /* About Me styles */
+.section {
+  height: 750px;
+}
+
 .about-me-title {
   color: var(--primary);
 }
