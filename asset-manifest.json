@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.2f134b81.css",
-    "main.js": "/react_portfolio/static/js/main.7b98c4b4.js",
+    "main.css": "/react_portfolio/static/css/main.0c9c555c.css",
+    "main.js": "/react_portfolio/static/js/main.ea10b21c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Run Buddy.jpg": "/react_portfolio/static/media/Run Buddy.c27190d156e0d0fbecd0.jpg",
+    "static/media/TraveList.jpg": "/react_portfolio/static/media/TraveList.71348f4092c3e593b072.jpg",
+    "static/media/Pizza Hunt.jpg": "/react_portfolio/static/media/Pizza Hunt.d5cfbd3e72e19fe617ac.jpg",
+    "static/media/DefiChallenge.jpg": "/react_portfolio/static/media/DefiChallenge.7842bdd3c321ce8061ff.jpg",
+    "static/media/Note Taker.jpg": "/react_portfolio/static/media/Note Taker.6821ca40ddf2ce99b1b8.jpg",
     "static/media/self-image.jpeg": "/react_portfolio/static/media/self-image.9aa4f2f1e051ffc54ade.jpeg",
+    "static/media/Work Day Scheduler.jpg": "/react_portfolio/static/media/Work Day Scheduler.0618c380395477086a60.jpg",
     "index.html": "/react_portfolio/index.html",
-    "main.2f134b81.css.map": "/react_portfolio/static/css/main.2f134b81.css.map",
-    "main.7b98c4b4.js.map": "/react_portfolio/static/js/main.7b98c4b4.js.map",
+    "main.0c9c555c.css.map": "/react_portfolio/static/css/main.0c9c555c.css.map",
+    "main.ea10b21c.js.map": "/react_portfolio/static/js/main.ea10b21c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f134b81.css",
-    "static/js/main.7b98c4b4.js"
+    "static/css/main.0c9c555c.css",
+    "static/js/main.ea10b21c.js"
   ]
 }
