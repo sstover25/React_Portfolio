@@ -4,7 +4,7 @@ import TraveListImage from "../../assets/TraveList.jpg";
 import RunBuddyImage from "../../assets/Run Buddy.jpg";
 import WorkDaySchedulerImage from "../../assets/Work Day Scheduler.jpg";
 import PizzaHuntImage from "../../assets/Pizza Hunt.jpg";
-import WordyImage from "../../assets/WordyImage.jpg";
+import WordyImage from "../../assets/Wordy.jpg";
 
 function Project() {
   const [projects] = useState([
