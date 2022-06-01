@@ -4,10 +4,16 @@ import TraveListImage from "../../assets/TraveList.jpg";
 import RunBuddyImage from "../../assets/Run Buddy.jpg";
 import WorkDaySchedulerImage from "../../assets/Work Day Scheduler.jpg";
 import PizzaHuntImage from "../../assets/Pizza Hunt.jpg";
-import NoteTakerImage from "../../assets/Note Taker.jpg";
+import WordyImage from "../../assets/WordyImage.jpg";
 
 function Project() {
   const [projects] = useState([
+    {
+      name: "Wordy",
+      src: WordyImage,
+      link: "https://wordy-hangman.herokuapp.com/",
+      github: "https://github.com/wbruns/wordy",
+    },
     {
       name: "DefiChallenge",
       src: DefiChallengeImage,
@@ -37,12 +43,6 @@ function Project() {
       src: PizzaHuntImage,
       link: "https://pizza-hunt-777.herokuapp.com/",
       github: "https://github.com/sstover25/pizza-hunt",
-    },
-    {
-      name: "Note Taker",
-      src: NoteTakerImage,
-      link: "https://note-taker-77126.herokuapp.com/",
-      github: "https://github.com/sstover25/Note_Taker",
     },
   ]);
 
